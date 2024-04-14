@@ -30,7 +30,7 @@ Video demonstrating the Game.
 
 ## Support
 
-If you like my bot, you are welcome to support me and my work with a coffee :)
+If you like my game, you are welcome to support me and my work with a coffee :)
 
 - [**Ko-Fi**](https://www.ko-fi.com/lovecoffeeandcoding)
 - [**Buy Me A Coffee**](https://www.buymeacoffee.com/lovecoffeeandcoding)
