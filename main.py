@@ -12,11 +12,11 @@ screen = pygame.display.set_mode((WIDTH,HEIGHT))
 background_image = pygame.image.load("tea.png")
 
 ball = pygame.image.load("ball.png")
-player1_image = pygame.image.load("player1.jpg")
-player2_image = pygame.image.load("player2.jpg")
+raspberry_player = pygame.image.load("player1.jpg")
+peach_player = pygame.image.load("player2.jpg")
 
-raspberry_image = pygame.image.load("raspberry.png")
-peach_image = pygame.image.load("peach.png")
+raspberry_image_score = pygame.image.load("raspberry.png")
+peach_image_score = pygame.image.load("peach.png")
 trophaeA = pygame.image.load("trophae1.png")
 trophaeB = pygame.image.load("trophae2.png")
 
@@ -111,11 +111,11 @@ while (running):
     rect = image_ball.get_rect(center=(ball_x, ball_y))
     image_ball_center = rect.center
 
-    image_player1 = player1_image
+    image_player1 = raspberry_player
     rect2 = image_player1.get_rect(center=(raspberry_x, raspberry_y))
     image_player1_center = rect2.center
 
-    image_player2 = player2_image
+    image_player2 = peach_player
     rect3 = image_player2.get_rect(center=(peach_x, peach_y))
     image_player2_center = rect3.center
 
@@ -157,10 +157,10 @@ while (running):
     screen.blit(background_image, (0,0))
 
     screen.blit(ball,(ball_x,ball_y))
-    screen.blit(player1_image, (raspberry_x,raspberry_y))
-    screen.blit(player2_image, (peach_x, peach_y))
-    screen.blit(raspberry_image, (raspberry_x_score, raspberry_y_score))
-    screen.blit(peach_image, (peach_x_score, peach_y_score))
+    screen.blit(raspberry_player, (raspberry_x,raspberry_y))
+    screen.blit(peach_player, (peach_x, peach_y))
+    screen.blit(raspberry_image_score, (raspberry_x_score, raspberry_y_score))
+    screen.blit(peach_image_score, (peach_x_score, peach_y_score))
 
     font = pygame.font.Font(None, 74)
     text = font.render(str(score_raspberry), 1, (255, 255, 255))
