@@ -28,11 +28,11 @@ raspberry_y = 300
 peach_x = 1200
 peach_y = 300
 
-# position of score from player 1 (raspberry)
+# position of score of player 1 (raspberry)
 raspberry_x_score = 520
 raspberry_y_score = 35
 
-# position of score from player 2 (peach)
+# position of score of player 2 (peach)
 peach_x_score = 740
 peach_y_score = 38
 
@@ -41,7 +41,7 @@ texty = 60
 
 font = pygame.font.Font('freesansbold.ttf', 37)
 
-# start position of score from player 2 (peach)
+# start position of ball
 ball_x = 650
 ball_y = 300
 
@@ -49,7 +49,7 @@ ball_y = 300
 movement_x = 9
 movement_y = 9
 
-#both games (fruits) start with 0 points
+# both games (fruits) start with 0 points
 score_raspberry = 0
 score_peach = 0
 
