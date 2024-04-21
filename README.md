@@ -1,7 +1,7 @@
 
 # Fruit Tea Pong
 
-
+![Logo](https://www.webhawk-design.com/wp-content/uploads/Fruit-Tea-Pong.jpg)
 
 
 
@@ -30,8 +30,16 @@ Video demonstrating the Game.
 
 ## Support
 
-If you like my bot, you are welcome to support me and my work with a coffee :)
+If you like my game, you are welcome to support me and my work with a coffee :)
 
 - [**Ko-Fi**](https://www.ko-fi.com/lovecoffeeandcoding)
 - [**Buy Me A Coffee**](https://www.buymeacoffee.com/lovecoffeeandcoding)
 
+
+## Credits
+- ball.png: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
+- trophae1.png: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
+- trophae2.png: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
+- raspberry.png: Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com)
+- peach.png: Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com)
+- tea.png: Icon made by [ADMS ICons](https://www.flaticon.com/authors/adms-icons) from [www.flaticon.com](https://www.flaticon.com)
