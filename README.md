@@ -37,4 +37,4 @@ If you like my game, you are welcome to support me and my work with a coffee :)
 
 
 ## Credits
-- ball.png: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) [from](https://www.flaticon.com)
+- ball.png: Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
