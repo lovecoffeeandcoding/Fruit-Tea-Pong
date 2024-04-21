@@ -35,3 +35,6 @@ If you like my game, you are welcome to support me and my work with a coffee :)
 - [**Ko-Fi**](https://www.ko-fi.com/lovecoffeeandcoding)
 - [**Buy Me A Coffee**](https://www.buymeacoffee.com/lovecoffeeandcoding)
 
+
+## Credits
+- Icon made by [Freepik](https://www.flaticon.com/authors/freepik)
