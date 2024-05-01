@@ -1,5 +1,6 @@
 import pygame
-import winsound
+from assets import *
+#import winsound
 
 pygame.init()
 pygame.joystick.init()
@@ -9,16 +10,6 @@ WIDTH = 1280
 HEIGHT = 720
 
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
-background_image = pygame.image.load("tea.png")
-
-ball = pygame.image.load("ball.png")
-raspberry_player = pygame.image.load("player1.jpg")
-peach_player = pygame.image.load("player2.jpg")
-
-raspberry_image_score = pygame.image.load("raspberry.png")
-peach_image_score = pygame.image.load("peach.png")
-trophaeA = pygame.image.load("trophae1.png")
-trophaeB = pygame.image.load("trophae2.png")
 
 # start position of player 1 (raspberry)
 raspberry_x = 80
@@ -122,23 +113,23 @@ while (running):
     if rect.colliderect(rect2):
         movement_x = movement_x * -1
         #movement_x = movement_x * random.randint(1, 5)
-        winsound.Beep(330, 20)
+        #winsound.Beep(330, 20)
 
     elif rect.colliderect(rect3):
         movement_x = movement_x * -1
         #movement_x = movement_x * random.randint(1, 5)
-        winsound.Beep(330, 20)
+        #winsound.Beep(330, 20)
 
     # If a player does not reach the ball, the opponent gets a point
     if ball_x < 0:
         ball_x = 500
         score_peach = score_peach + 1
-        winsound.Beep(130, 2000)
+        #winsound.Beep(130, 2000)
 
     if ball_x > 1256:
         ball_x = 500
         score_raspberry = score_raspberry + 1
-        winsound.Beep(130, 2000)
+        #winsound.Beep(130, 2000)
 
     # Preventing a player from reaching the edge of the playing area
     if raspberry_y < 0:
