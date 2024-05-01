@@ -106,23 +106,23 @@ while (running):
     If so, the ball should bounce/rebound"""
 
     image_ball = ball
-    rect = image_ball.get_rect(center=(ball_x, ball_y))
-    image_ball_center = rect.center
+    ball_rect = image_ball.get_rect(center=(ball_x, ball_y))
+    image_ball_center = ball_rect.center
 
     image_player1 = raspberry_player
-    rect2 = image_player1.get_rect(center=(raspberry_x, raspberry_y))
-    image_player1_center = rect2.center
+    raspberry_player_rect = image_player1.get_rect(center=(raspberry_x, raspberry_y))
+    image_player1_center = raspberry_player_rect.center
 
     image_player2 = peach_player
-    rect3 = image_player2.get_rect(center=(peach_x, peach_y))
-    image_player2_center = rect3.center
+    peach_player_rect = image_player2.get_rect(center=(peach_x, peach_y))
+    image_player2_center = peach_player_rect.center
 
-    if rect.colliderect(rect2):
+    if ball_rect.colliderect(raspberry_player_rect):
         movement_x = movement_x * -1
         #movement_x = movement_x * random.randint(1, 5)
         #winsound.Beep(330, 20)
 
-    elif rect.colliderect(rect3):
+    elif ball_rect.colliderect(peach_player_rect):
         movement_x = movement_x * -1
         #movement_x = movement_x * random.randint(1, 5)
         #winsound.Beep(330, 20)
