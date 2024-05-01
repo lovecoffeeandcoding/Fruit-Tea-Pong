@@ -11,6 +11,9 @@ HEIGHT = 720
 
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 
+# game mode (single_player / multi_player)
+game_mode = "single_player"
+
 # start position of player 1 (raspberry)
 raspberry_x = 80
 raspberry_y = 300
@@ -63,10 +66,13 @@ while (running):
 
     # Query the buttons for the control (Keyboard and Gamepad). When the "s" key is pressed,
     # Player 1 (raspberry) moves up by 3 pixels and so on.
-    if keys[pygame.K_w]:
-        raspberry_y = raspberry_y - 9
-    if keys[pygame.K_s]:
-        raspberry_y = raspberry_y + 9
+    if game_mode == "single_player":
+        raspberry_y = move_player_left(raspberry_y, ball_y, (score_raspberry, score_peach))
+    elif game_mode == "multi_player":
+        if keys[pygame.K_w]:
+            raspberry_y = raspberry_y - 9
+        if keys[pygame.K_s]:
+            raspberry_y = raspberry_y + 9
 
     if keys[pygame.K_DOWN]:
         peach_y = peach_y + 9

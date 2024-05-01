@@ -1,4 +1,5 @@
 import pygame
+from assets.player_left_ai import *
 
 background_image = pygame.image.load("assets/img/tea.png")
 
