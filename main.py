@@ -4,6 +4,7 @@ from assets import *
 
 pygame.init()
 pygame.joystick.init()
+clock = pygame.time.Clock()
 joysticks = [pygame.joystick.Joystick(i) for i in range (pygame.joystick.get_count())]
 
 WIDTH = 1280
@@ -177,5 +178,6 @@ while (running):
         screen.blit(trophaeB, (550, 300))
         pygame.time.delay(100)
 
+    clock.tick(60)
     pygame.display.update()
 pygame.quit()
