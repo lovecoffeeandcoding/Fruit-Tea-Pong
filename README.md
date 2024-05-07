@@ -6,9 +6,15 @@
 
 
 ## About the project
-The project started with the motivation of learning game development with python. 
+Experience pong in a unique version with fruits and tea. Choose an tasty fruit and show who is the number 1 fruit in the pong universe. The winner receives a trophy and a delicious fruit tea. Start your fruity pong adventure now!
 
-It is the first computer game I have programmed. Since I am a beginner, I decided to implement it without Object-oriented programming. In the next version I will implement it with Object-oriented programming.
+- Stunning 2D graphics
+- Brilliant sound effects
+- Many hours of gaming fun
+- Various fruits to choose from
+- 2 game modes. Play against human opponent or computer
+
+The project started with the motivation of learning game development with python. It is the first computer game I have programmed. Since I am a beginner, I decided to implement it without Object-oriented programming. In the next version I will implement it with Object-oriented programming.
 
 
 ## Built with
